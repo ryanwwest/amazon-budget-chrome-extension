@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "description": "Improves financial literacy when shopping online",
+  "name": "Team Fiber",
+  "version": "0.1",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation"
+  ],
+ "browser_action": {
+    "default_popup": "popup.html"
+ },
+  "background":
+  {
+      "scripts": ["background.js"],
+      "persistent": true
+  },
+  "content_scripts": [
+  {
+    "js": [ "jquery-3.4.1.min.js", "amazon-product.js" ],
+    "matches": [ "https://www.amazon.com/*" ]
+  },
+  {
+    "js": [ "amazon-cart.js" ],
+    "matches": [ "https://www.amazon.com/gp/cart*" ]
+  }
+  
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

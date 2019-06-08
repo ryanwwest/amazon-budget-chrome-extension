@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://verified.capitalone.com/sic-ui/#/esignin -->
+
+<html ng-app="signInControllerApp" lang="" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./login_files/analytics.js" nonce="5zX8NcFWmH/1SVSOj/3R6w0y"></script><script type="text/javascript" async="" src="./login_files/cc.js"></script><script src="./login_files/js"></script><script type="text/javascript" async="" src="./login_files/3c4f6601f762df878497669614209540.js"></script><script type="text/javascript" async="" src="./login_files/f1e6ce474bfdd31b662ac1d51c6fad61.js"></script><script type="text/javascript" async="" src="./login_files/4a27919e6c1c8e0174b7e1c54e25ba7e.js"></script><script src="./login_files/serverComponent.php"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><script nonce="5zX8NcFWmH/1SVSOj/3R6w0y" src="./login_files/cp_common.js" id="0040209f2a6b01000028db260d1a2bc00155c66a88b010b07aeb3165446b762c4b5ae199fb32d88fe7e35a60d8"></script><title>Sign In</title><!-- ngIf: otherProductsPage --><!-- mobile meta tags --><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="translucent"><meta name="apple-mobile-web-app-title" content=""><link rel="stylesheet" href="./login_files/app-ee5bd49cb9.css"><!-- ngIf: identifySignInPageforSEO --><link rel="canonical" href="https://www.capitalone.com/sign-in" ng-if="identifySignInPageforSEO" class="ng-scope"><!-- end ngIf: identifySignInPageforSEO --><noscript><meta http-equiv="refresh" content="0;url=noJavascript.html"></noscript><script async="" type="text/javascript" src="./login_files/all-47f16446e5.js"></script><script type="text/javascript" src="./login_files/c1SiteVars.js"></script><script></script><script src="./login_files/browserFingerPrintv1.min.js"></script><script src="./login_files/Bootstrap.js"></script><style type="text/css" media="print">.usabilla_live_button_container { display: none; }</style></head><body><div style="display: none;" id="lightningjs-usabilla_live"><div><iframe frameborder="0" id="lightningjs-frame-usabilla_live" src="./login_files/saved_resource.html"></iframe></div></div><div class="make-footer-sticky" ng-class="{&#39;partner&#39;: partnervalue == &#39;basspro&#39; &amp;&amp; showBassproPartner, &#39;partner-02&#39;: partnervalue == &#39;cabelas&#39; &amp;&amp; showCabelasPartner}"><div class="main-header"><header-directive><header class="ci-header-wrapper">
+<body>
+
+	<div class="ci-header" ng-init="loadUsabillaJS()">
+		<div class="ci-header--logo-container">
+			<img ng-click="redirectToTargetURL(&#39;homeNavigation&#39;)" class="ci-header--logo" src="./login_files/capital-one-logo.svg" alt="logo" role="button" tabindex="0">
+		</div>
+		<div class="ci-header--menu">
+			<ul role="menubar" class="ci-margin-none">
+				<!-- ngIf: showCountries --><li id="country-select" class="ci-header--menuitem ng-scope" ng-if="showCountries">
+					<button class="ci-header--button" role="menuitem" aria-haspopup="true" ng-click="ciHeader.toggleCountries($event)">
+						<!-- ngIf: ciHeader.selectedLanguage.country.code === 'USA' --><span ng-if="ciHeader.selectedLanguage.country.code === &#39;USA&#39;" class="ng-scope">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="16" class="ci-header--country-flag">
+						    <g fill="none" fill-rule="nonzero"><path fill="#FFF" d="M0 0h32v16H0z"></path><path fill="#B22234" d="M0 0h32v1.2H0zM0 2.5h32v1.2H0zM0 4.9h32v1.2H0zM0 7.4h32v1.2H0zM0 9.8h32V11H0zM0 12.3h32v1.2H0zM0 14.8h32V16H0z"></path><path fill="#3C3B6E" d="M0 0h12.2v8.6H0z"></path><g fill="#FFF"><path d="M.9.9l-.1.4L1 1l.3.3-.1-.4.3-.2h-.3L1 .4.9.7H.6zM2.9.9l-.1.4.3-.3.2.3-.1-.4.3-.2h-.3L3.1.4l-.2.3h-.3zM4.9.9l-.1.4.3-.3.3.3-.1-.4.2-.2h-.3L5.1.4 5 .7h-.4zM6.9.9l-.1.4.3-.3.3.3-.1-.4.3-.2h-.4L7.1.4 7 .7h-.4zM8.9.9l-.1.4.3-.3.3.3-.1-.4.3-.2h-.4L9.1.4 9 .7h-.4zM10.9.9l-.1.4.3-.3.3.3-.1-.4.3-.2h-.4l-.1-.3-.1.3h-.3zM1.9 1.8l-.1.3.2-.2.3.2-.1-.3.3-.2h-.3L2 1.2l-.1.4h-.3zM3.9 1.8l-.1.3.3-.2.3.2-.2-.3.3-.2h-.3l-.1-.4-.1.4h-.4zM5.9 1.8l-.1.3.3-.2.3.2-.1-.3.2-.2h-.3l-.1-.4-.1.4h-.4zM7.9 1.8l-.1.3.3-.2.3.2-.1-.3.3-.2h-.4l-.1-.4-.1.4h-.4zM9.9 1.8l-.1.3.3-.2.3.2-.1-.3.3-.2h-.4l-.1-.4-.1.4h-.4zM.8 3l.2-.2.3.2-.1-.4.3-.2h-.3L1 2.1l-.1.3H.6l.3.2zM2.8 3l.3-.2.2.2-.1-.4.3-.2h-.3l-.1-.3-.2.3h-.3l.3.2zM4.8 3l.3-.2.3.2-.1-.4.2-.2h-.3l-.1-.3-.1.3h-.4l.3.2zM6.8 3l.3-.2.3.2-.1-.4.3-.2h-.4l-.1-.3-.1.3h-.4l.3.2zM8.8 3l.3-.2.3.2-.1-.4.3-.2h-.4l-.1-.3-.1.3h-.4l.3.2zM10.8 3l.3-.2.3.2-.1-.4.3-.2h-.4l-.1-.3-.1.3h-.3l.2.2zM2.2 3.3L2.1 3l-.1.3h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.2-.2zM4.2 3.3L4.1 3l-.1.3h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM5.8 3.8l.3-.2.3.2-.1-.3.3-.2h-.4L6.1 3l-.1.3h-.4l.3.2zM8.2 3.3L8.1 3l-.1.3h-.3l.2.2-.1.3.3-.2.3.2-.1-.3.3-.2zM10.2 3.3l-.1-.3-.1.3h-.3l.3.2-.2.3.3-.2.3.2-.1-.3.3-.2zM1.2 4.2l-.1-.4-.1.4H.6l.3.2-.1.3.3-.2.3.2-.2-.3.3-.2zM3.2 4.2l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM5.2 4.2l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM7.2 4.2l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM9.2 4.2l-.1-.4-.1.4h-.3l.3.2-.2.3.3-.2.3.2-.1-.3.3-.2zM11.3 4.2l-.1-.4-.2.4h-.3l.3.2-.1.3.3-.2.2.2-.1-.3.3-.2zM2.1 4.7L2 5h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.2-.2h-.3zM4.1 4.7L4 5h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM6.1 4.7L6 5h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM8.1 4.7L8 5h-.3l.2.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM10.1 4.7L10 5h-.3l.3.2-.1.3.2-.2.3.2-.1-.3.3-.2h-.3zM1.1 5.5l-.1.4H.6l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM3.1 5.5l-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM5.1 5.5l-.1.4h-.3l.2.2-.1.3.3-.2.3.2-.1-.3.3-.2h-.4zM7.1 5.5l-.1.4h-.3l.3.2-.2.3.3-.2.3.2-.1-.3.3-.2h-.4zM9.2 5.5l-.2.4h-.3l.3.2-.1.3.3-.2.2.2-.1-.3.3-.2h-.3zM11.3 5.9l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.2-.3.3-.2zM2.2 6.7l-.1-.3-.1.3h-.4l.3.2-.1.4.3-.2.3.2-.1-.4.2-.2zM4.2 6.7l-.1-.3-.1.3h-.4l.3.2-.1.4.3-.2.3.2-.1-.4.3-.2zM6.2 6.7l-.1-.3-.1.3h-.4l.3.2-.1.4.3-.2.3.2-.1-.4.3-.2zM8.2 6.7l-.1-.3-.1.3h-.3l.2.2-.1.4.3-.2.3.2-.1-.4.3-.2zM10.2 6.7l-.1-.3-.1.3h-.3l.3.2-.2.4.3-.2.3.2-.1-.4.3-.2zM1.2 7.6l-.1-.4-.1.4H.6l.3.2-.1.3.3-.2.3.2-.2-.3.3-.2zM3.2 7.6l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.2-.2zM5.2 7.6l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM7.2 7.6l-.1-.4-.1.4h-.4l.3.2-.1.3.3-.2.3.2-.1-.3.3-.2zM9.2 7.6l-.1-.4-.1.4h-.3l.2.2-.1.3.3-.2.3.2-.1-.3.3-.2zM11.3 7.6l-.2-.4-.1.4h-.3l.3.2-.1.3.2-.2.3.2-.1-.3.3-.2z"></path></g></g>
+						  </svg>
+							<span class="ci-header--vh ng-binding">United States</span>
+						</span><!-- end ngIf: ciHeader.selectedLanguage.country.code === 'USA' -->
+
+						<!-- ngIf: ciHeader.selectedLanguage.country.code === 'CA' -->
+
+						<svg viewBox="0 0 19.3 12.21" class="ci-header--arrow-icon">
+						<path d="M19.3 2.56L16.73 0 9.65 7.08 2.56 0 0 2.56l9.65 9.65 9.65-9.65"></path>
+					  </svg>
+					</button>
+
+					<div id="country-menu" ng-class="{&#39;ci-hide&#39;: !ciHeader.showCountriesFlag}" role="menu" class="ci-hide">
+						<fieldset class="ci-header--sub-menu">
+							<legend class="ci-hide ng-binding">Select A Country:</legend>
+							<!-- ngRepeat: countries in ciHeader.availableCountries track by countries.country.code --><button ng-repeat="countries in ciHeader.availableCountries track by countries.country.code" class="button--wide ng-binding ng-scope" role="menuitem" ng-click="ciHeader.changeCountry(countries.locale)">United States</button><!-- end ngRepeat: countries in ciHeader.availableCountries track by countries.country.code --><button ng-repeat="countries in ciHeader.availableCountries track by countries.country.code" class="button--wide ng-binding ng-scope" role="menuitem" ng-click="ciHeader.changeCountry(countries.locale)">Canada</button><!-- end ngRepeat: countries in ciHeader.availableCountries track by countries.country.code -->
+							<a href="https://www.capitalone.co.uk/myaccount/secure/sign-in.jsf" role="menuitem" class="text-link--wide ng-binding">United Kingdom</a>
+						</fieldset>
+					</div>
+				</li><!-- end ngIf: showCountries -->
+
+				<!-- ngIf: showLanguages --><li id="language-select" class="ci-header--menuitem ng-scope" ng-if="showLanguages">
+					<button class="ci-header--button ng-binding" role="menuitem" ng-click="ciHeader.toggleLanguages($event)">English
+						<svg viewBox="0 0 19.3 12.21" class="ci-header--arrow-icon">
+								<path d="M19.3 2.56L16.73 0 9.65 7.08 2.56 0 0 2.56l9.65 9.65 9.65-9.65"></path>
+							</svg>
+					</button>
+
+					<div id="language-menu" ng-class="{&#39;ci-hide&#39;: !ciHeader.showLanguagesFlag}" role="menu" class="ci-hide">
+						<fieldset class="ci-header--sub-menu">
+							<legend class="ci-hide@screen-medium-up header-legend ng-binding">Select A Language: </legend>
+							<div class="header-options">
+								<!-- ngRepeat: language in ciHeader.availableLanguages track by language.code --><button ng-repeat="language in ciHeader.availableLanguages track by language.code" class="button--wide ng-binding ng-scope" role="menuitem" ng-click="ciHeader.changeLanguage(language.locale)">English</button><!-- end ngRepeat: language in ciHeader.availableLanguages track by language.code --><button ng-repeat="language in ciHeader.availableLanguages track by language.code" class="button--wide ng-binding ng-scope" role="menuitem" ng-click="ciHeader.changeLanguage(language.locale)">Español</button><!-- end ngRepeat: language in ciHeader.availableLanguages track by language.code -->
+							</div>
+						</fieldset>
+					</div>
+				</li><!-- end ngIf: showLanguages -->
+
+				<!-- ngIf: showSignIn -->
+
+				<!-- ngIf: showSignOut -->
+
+
+			</ul>
+		</div>
+	</div>
+
+	<div class="modal-overlay" ng-class="{&#39;active&#39;: (cvvModal)	}" ng-click="cvvModal=false" role="button" tabindex="0"></div>
+	<div class="modal" ng-class="{&#39;active&#39;: cvvModal }">
+		<div class="modal-content text-center">
+			<a class="modal-close" ng-click="cvvModal=false">
+				<img src="./login_files/close.png" alt="close modal">
+			</a>
+			<div class="modal-top-icon-bg">
+				<img src="./login_files/language-popup-icon.png" alt="card icon" class="modal-top-icon">
+			</div>
+			<h1 translate-default="Bienvenido(a) a Capital One" translate="languageJsonProps.0.sic.SpanishDisclaimer.header.text" class="ng-scope">Bienvenido(a) a Capital One</h1>
+			<p translate-default="Nos complace informar que nuestro sitio web ahora ofrece la opción de presentar el contenido en español. Aunque algunas opciones están disponibles en español, otras páginas, documentos, y servicios solo están disponibles en inglés en este momento. Usted debe revisar páginas de Internet y documentos en cualquiera de los idiomas porque pueden contener información importante sobre su cuenta. ¿Le gustaría continuar en español?" translate="languageJsonProps.0.sic.SpanishDisclaimer.body.text" class="ng-scope">Nos complace ofrecer la versión en español de nuestro sitio Web. Aunque hay ciertas opciones disponibles en español, otras páginas, documentos, servicios y comunicaciones solo están disponibles en inglés en este momento. Tenga presente que los servicios en español para productos de financiamiento de vivienda o financiamiento de automóviles son limitados.&nbsp; Cuando los documentos y las páginas no están disponibles en español, usted debe revisar las versiones en inglés porque pueden tener información Importante sobre la cuenta. ¿Le gustaría continuar en español?</p>
+			<button class="oui-button progressive ng-scope" type="submit" ng-click="ciHeader.continueLanguageChange(&#39;es_US&#39;)" translate-default="Continuar" translate="languageJsonProps.0.sic.SpanishDisclaimer.continue.text" id="id-modal-continue">Continuar</button>
+			<br>
+			<br>
+		</div>
+	</div>
+	<!--Modal Session Time Out-->
+	<div class="modal-overlay" ng-class="{&#39;active&#39;: (stoModal)	}" ng-click="stoModal=false" role="button" tabindex="0"></div>
+	<div class="modal-timeout" ng-class="{&#39;active&#39;: stoModal }">
+		<div class="modal-content text-center">
+			<a class="modal-close" ng-click="stoModal=false">
+				<img src="./login_files/close.png" alt="close modal">
+			</a>
+			<div class="modal-top-icon-bg">
+				<img src="./login_files/timeout-icon.png" alt="card icon" class="modal-top-icon">
+			</div>
+			<span class="modal-timeout-header ng-scope" translate-default="Anyone out there?" translate="languageJsonProps.ic.SessionTimeOut.header.text">Anyone out there?</span>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p class="modal-timeout-subhead ng-scope" translate-default="After a few minutes of inactivity we will log you out to keep your accounts safe." translate="languageJsonProps.ic.SessionTimeOut.subhead.text">After a few minutes of inactivity we will log you out to keep your accounts safe.</p>
+				</div>
+			</div>
+
+			<div class="modal-timer">
+				<span> 9 </span>
+				<span translate-default="minutes" translate="languageJsonProps.ic.SessionTimeOut.minutes.text" class="ng-scope">minutes</span>
+			</div>
+			<br>
+
+			<button class="oui-button progressive timeout-wait-button ng-scope" type="submit" translate-default="Wait, I&#39;m still here!" translate="languageJsonProps.0.sic.SessionTimeOut.Wait.text" id="id-modal-wait" ng-click="closeTimeOut()">Wait, I'm still here!</button>
+			<br>
+
+			<button class="oui-button progressive timeout-signout-button ng-scope" type="submit" translate-default="Sign out" translate="languageJsonProps.0.sic.SessionTimeOut.SignOut.text" id="id-modal-signout" ng-click="signOutTimeOut()">Sign out</button>
+
+		</div>
+	</div>
+</header></header-directive></div><div class="main-body"><!-- uiView: --><ui-view class="ng-scope"><div translate-cloak="" class="container pad25 ng-scope" ng-init="taghomePageEvent()">
+	<div class="sic-card" ng-class="{ &#39;partner-card&#39;: showBassproPartner || showCabelasPartner }">
+		<div class="title-wrap">
+			<!-- ngIf: showBassproPartner || showCabelasPartner -->
+			<!-- ngIf: !showBassproPartner && !showCabelasPartner --><div ng-if="!showBassproPartner &amp;&amp; !showCabelasPartner" class="ng-scope">
+				<div class="title-area-dd">
+					<img src="./login_files/avatar.png" alt="" class="title-icon-dd" id="id-sign-in-icon">
+				</div>
+				<div class="title-text-dd" id="id-class-text" ng-show="showRegularSigninPage &amp;&amp; !isCreditTracker" aria-hidden="false">
+					<label class="signin-header ng-scope" style="white-space: nowrap;overflow-x: visible" translate-default="Sign In" translate="languageJsonProps.0.sic.signin.signIn.label.text" id="id-signin-header">Sign In</label>
+				</div>
+			</div><!-- end ngIf: !showBassproPartner && !showCabelasPartner -->
+			<div class="title-text-dd ng-hide" id="id-class-text" ng-show="showRegularSigninPage &amp;&amp; isCreditTracker" aria-hidden="true">
+				<label class="signin-header ng-scope" style="white-space: nowrap;overflow-x: visible" translate-default="Sign In to CreditWise" translate="languageJsonProps.0.sic.signin.signIn.creditwise.label.text" id="id-signin-header">Sign In to CreditWise</label>
+			</div>
+			<div class="title-text-dd ng-hide" id="id-class-text" ng-show="showForgotSigninPage &amp;&amp; username.length &lt;= 12" aria-hidden="true">
+				<span class="signinas-header ng-scope" style="white-space: nowrap;overflow-x: visible" translate-default="Sign in as" translate="languageJsonProps.0.sic.signin.signInAs.label.text" id="id-signinas-header">Sign in as</span>
+				<span class="signin-header-dash ng-binding" style="color:#008BC1"></span>
+			</div>
+			<div class="title-text-dd ng-hide" id="id-class-text" ng-show="showForgotSigninPage &amp;&amp; username.length &gt; 12" aria-hidden="true">
+				<span class="signinas-header-alt ng-scope" style="white-space: nowrap;overflow-x: visible;" translate-default="Sign in as" translate="languageJsonProps.0.sic.signin.signInAs.label.text" id="id-signinas-header">Sign in as</span>
+				<span class="signin-header-alt ng-binding" style="color:#008BC1"></span>
+			</div>
+		</div>
+		<div ng-show="showBassproSlugline" class="sic-width text-center ng-hide" aria-hidden="true"><span translate-default="Manage your Club Credit Card by signing in with your Capital
+			One ID." translate="languageJsonProps.0.sic.signin.custom.basspro.slugline.text" class="ng-scope">Sign in with your Capital One ID.If you haven't signed into the new site yet,&nbsp;<a href="https://verified.capitalone.com/enroll/#/pii?originatorId=BPSSIC" target="none">setup online access</a>.</span>
+		</div>
+		<div ng-show="showCabelasSlugline" class="sic-width text-center ng-hide" aria-hidden="true"><span translate-default="Manage your Club Credit Card by signing in with your Capital
+			One ID." translate="languageJsonProps.0.sic.signin.custom.cabelas.slugline.text" class="ng-scope">Sign in with your Capital One ID. If you haven't signed into the new site yet, <a href="https://verified.capitalone.com/enroll/#/pii?originatorId=CBLSIC" target="none">setup online access</a>.</span>
+		</div>
+		<div ng-show="showEnoSlugline" class="sic-width text-center ng-hide" aria-hidden="true"><span translate-default="Sign in and confirm your mobile phone number so you and Eno® can text about your account." translate="languageJsonProps.0.sic.signin.custom.eno.slugline.text" class="ng-scope">Sign in and confirm your mobile phone number so you and Eno® can text about your account.</span>
+		</div>
+		<!-- ngIf: limitedAttemptsError -->
+
+		<!-- ngIf: coupleOfAttmeptsError -->
+
+		<!-- Error message for profileExpired case   -->
+		<!--div class="error-msg" ng-show="profileExpiredError">Looks like we need to fix something. Give us a call at 1-877-383-4802 and we'll help you sort it out.</div-->
+		<!-- ngIf: profileExpiredError -->
+
+		<!-- Error message for passwordExpired case   -->
+		<!--div class="error-msg" ng-show="passwordExpiredError">For security, we've deactivated your password. Give us a call at 1-877-383-4802 and we'll help you sort it out.</div-->
+		<!-- ngIf: passwordExpiredError -->
+
+		<!-- Error message for partiallyEnrolled case   -->
+		<!--div class="error-msg" ng-show="partiallyEnrolledError">Looks like you didn't finish signing up. Please complete your enrollment for online access and try again.</div-->
+		<!-- ngIf: partiallyEnrolledError -->
+
+		<!-- Error message for partiallyMigrated case   -->
+		<!-- ngIf: partiallyMigratedError -->
+
+		<div class="signin-dd bottom-spacing" ng-show="langCookies() &amp;&amp; !selectedLanguage.includes(&#39;CA&#39;)" aria-hidden="false">
+			<div class="media-width">
+				<div id="id-signin-page-ccusa">
+	<form name="userLogin" novalidate="" autocomplete="off" id="id-signin-form" method="post" class="ng-pristine ng-valid">
+		<div class="row-hide-pswd">
+			<input type="password" class="hide-pswd">
+		</div>
+
+		<div class="row">
+
+			<div class="sic-width">
+				<div class="form-group">
+
+					<!-- ngIf: !partnervalue --><label for="username" class="signin-username ng-scope" translate-default="Username" translate="languageJsonProps.0.sic.signin.Username.label.text" id="id-signin-username-label" ng-if="!partnervalue">Username</label><!-- end ngIf: !partnervalue -->
+					<!-- ngIf: partnervalue -->
+
+					<input aria-describedby="id-credit-cards-info id-credit-cards-required" type="text" class="signin-text ng-pristine ng-untouched ng-valid ng-empty" autofocus="" autocomplete="off" ng-focus="true" id="username" name="username" ng-model="username" ng-readonly="enableUserName" ng-init="populateFields()" ng-change="onUserNameChange()" formnovalidate="" ng-class="{&#39;error-outline&#39;: usernameRequiredError}" aria-invalid="false">
+
+					<!--<div class="error-msg" ng-show="usernameRequiredError" role="alert" translate-default="User name is required" translate="languageJsonProps.0.sic.username.required.error.label.text" id="id-signin-username-error"></div>-->
+
+					<div ng-show="usernameRequiredError == true" aria-hidden="true" class="ng-hide">
+						<div class="username-error-popup" id="id-username-popup">
+							<div class="username-account-selection-popup">
+								<span id="id-credit-cards-info" class="account-banking-selection signin-username ng-scope" translate-default="Please enter required" translate="languageJsonProps.0.sic.signin.signinToolTipError.text">Please enter required</span>
+								<br>
+								<span id="id-credit-cards-required" class="account-banking-selection signin-username ng-scope" translate-default="information" translate="languageJsonProps.0.sic.signin.signinToolTipErrorPart2.text">information</span>
+
+								<img src="./login_files/left-triangle.png" class="popdown" id="id-tooltip-down" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="form-group">
+					<!-- ngIf: !partnervalue --><label for="password" class="signin-password ng-scope" translate-default="Password" translate="languageJsonProps.0.sic.signin.Password.label.text" id="id-signin-passord-label" ng-if="!partnervalue">Password</label><!-- end ngIf: !partnervalue -->
+					<!-- ngIf: partnervalue -->
+					<input aria-describedby="id-credit-cards-info id-credit-cards-required" class="signin-text-password ng-pristine ng-untouched ng-valid ng-empty" type="password" id="password" name="password" ng-model="password" ng-keyup="onPasswordChange()" ng-class="{&#39;error-outline&#39;: (passwordRequiredError &amp;&amp; !usernameRequiredError)}" aria-invalid="false">
+					<!--<div class="error-msg" ng-show="passwordRequiredError" role="alert" translate-default="Password is required" translate="languageJsonProps.0.sic.password.required.error.label.text" id="id-signin-password-error"></div>-->
+
+					<div ng-show="((passwordRequiredError == true) &amp;&amp; (usernameRequiredError == false))" aria-hidden="true" class="ng-hide">
+						<div class="username-error-popup" id="id-username-popup">
+							<div class="username-account-selection-popup">
+								<span id="id-credit-cards-info" class="account-banking-selection signin-username ng-scope" translate-default="Please enter required" translate="languageJsonProps.0.sic.signin.signinToolTipError.text">Please enter required</span>
+								<br>
+								<span id="id-credit-cards-required" class="account-banking-selection signin-username ng-scope" translate-default="information" translate="languageJsonProps.0.sic.signin.signinToolTipErrorPart2.text">information</span>
+
+								<img src="./login_files/left-triangle.png" class="popdown" id="id-tooltip-down" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="flex-row sic-width">
+						<div role="group" aria-labelledby="id_remember_usa" class="no-wrap">
+							<input id="id-cc-checkbox" type="checkbox" name="remember" ng-model="remember" ng-click="setCheckboxParam()" class="ng-pristine ng-untouched ng-valid ng-empty" aria-invalid="false">
+							<label class="credit-cards-cb" for="id-cc-checkbox" value="Remember Me">
+								<span>
+									<span></span>
+								</span>
+								<div id="id_remember_usa" translate-default="Remember Me" translate="languageJsonProps.0.sic.signin.Remember_Me.label.text" class="signin-remember ng-scope">Remember Me</div>
+							</label>
+						</div>
+						<div class="text-right">
+							<a class="signin-forgot-username ng-scope ng-hide" ng-click="togglePasswordReqs();" translate-default="Password Rules" ng-show="(showPasswordRules)" translate="languageJsonProps.0.sic.resetPassword.passwordRules.label.text" id="id-signin-password-rules" tabindex="0" ng-keydown="passwordRulesEnter($event)" aria-hidden="true">Password Rules</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="id-cc-us-newpswd-div" ng-show="(showPswdReqs &amp;&amp; langCookies()  &amp;&amp; (selectedLanguage == &#39;en_US&#39;))" aria-hidden="true" class="ng-hide">
+				<div class="password-requirements-reset" role="alert">
+					<h2 id="id-pr-us-newpswd-heder" translate-default="Password Requirements" translate="languageJsonProps.0.sic.resetPassword.passwordRequirements.label.text" class="ng-scope">Password Requirements</h2>
+					<div class="password-list-reset" role="list">
+						<div class="row">
+							<div class="col-md-6" role="listitem">
+								<span id="id-cc-us-length-error" ng-show="!passwordReset.newpassword.$error.minlength &amp;&amp; !passwordReset.newpassword.$error.maxlength &amp;&amp; !passwordReset.newpassword.$error.required" aria-hidden="false" class="">
+									<i>
+										<img id="id-cc-us-length-icon" class="check" src="./login_files/check.png" alt="Satisfied">
+									</i>
+								</span>
+								<span id="id-cc-us-length-label" class="account-label ng-scope" translate-default="8-32 characters" translate="languageJsonProps.0.sic.resetPassword.characterLimit.label.text">8-32 characters</span>
+							</div>
+							<div class="col-md-6" role="listitem">
+								<span id="id-cc-us-usechars-error" ng-show="!passwordReset.newpassword.$error.useschars &amp;&amp; !passwordReset.newpassword.$error.required" aria-hidden="false" class="">
+									<i>
+										<img id="id-cc-us-usechars-icon" class="check" src="./login_files/check.png" alt="Satisfied">
+									</i>
+								</span>
+								<span id="id-cc-us-usechars-label" translate-default="Uses Aa-Zz 0-9 - _ . / \ @ $ * &amp; ! #" translate="languageJsonProps.0.sic.resetPassword.specialCharacters.label.text" class="ng-scope">Uses Aa-Zz 0-9 - _ . / \\@ $ * &amp; ! #</span>
+							</div>
+						</div>
+						<div class="row account-label">
+							<div class="col-md-6" role="listitem">
+								<span id="id-cc-us-pattern-error" ng-show="!passwordReset.newpassword.$error.pattern &amp;&amp; !passwordReset.newpassword.$error.required" aria-hidden="false" class="">
+									<i>
+										<img id="id-cc-us-pattern-icon" class="check" src="./login_files/check.png" alt="Satisfied">
+									</i>
+								</span>
+								<span id="id-cc-us-pattern-label" translate-default="At least one letter and one number" translate="languageJsonProps.0.sic.resetPassword.letterNumber.label.text" class="ng-scope">At least one letter and one number</span>
+							</div>
+							<div class="col-md-6" role="listitem">
+								<span id="id-cc-us-nouser-error" ng-show="!passwordReset.newpassword.$error.nouser &amp;&amp; !passwordReset.newpassword.$error.required" aria-hidden="false" class="">
+									<i>
+										<img id="id-us-nouser-icon" class="check" src="./login_files/check.png" alt="Satisfied">
+									</i>
+								</span>
+								<span id="id-cc-us-nouser-label" class="account-label ng-scope" translate-default="Can&#39;t be the same as your username" translate="languageJsonProps.0.sic.resetPassword.notUsername.label.text">Can't be the same as your username</span>
+							</div>
+						</div>
+						<div class="row account-label">
+							<div class="col-md-6" role="listitem">
+								<span id="id-cc-us-nospace-error" ng-show="!passwordReset.newpassword.$error.nospace &amp;&amp; !passwordReset.newpassword.$error.required" aria-hidden="false" class="">
+									<i>
+										<img id="id-cc-us-nospace-icon" class="check" src="./login_files/check.png" alt="Satisfied">
+									</i>
+								</span>
+								<span id="id-cc-us-nospace-label" translate-default="No spaces" translate="languageJsonProps.0.sic.resetPassword.noSpaces.label.text" class="ng-scope">No spaces</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ngIf: (showPswdReqs && langCookies()  && (selectedLanguage == 'es_US')) -->
+
+			<!-- ngIf: (showPswdReqs && langCookies() && (selectedLanguage == 'fr_CA')) -->
+
+			<!-- ngIf: (showPswdReqs && langCookies()  && (selectedLanguage == 'en_CA')) -->
+
+			<div id="usa" class="sic-width">
+				<!-- ngIf: showRegularSigninPage --><div ng-if="showRegularSigninPage" class="ng-scope">
+					<button class="oui-button-cc action-inverted signin-button  ng-scope" id="id-signin-submit" type="submit" ng-disabled="signinDisabled" ng-click="signin()" translate-default="Sign In" translate="languageJsonProps.0.sic.signin.signIn.button.text">Sign In</button>
+				</div><!-- end ngIf: showRegularSigninPage -->
+				<!-- ngIf: showForgotSigninPage -->
+
+				<div id="id-forgotlinks-usa" class="row fontadjust credit-cards-enroll">
+					<div class="col-xs-12" ng-show="showRegularSigninPage &amp;&amp; !workitInd" aria-hidden="false">
+						<a class="signin-forgot-username ng-scope" ng-click="getDropDownTargetURL(&#39;enterpriseSigninHelp&#39;, &#39;ENTERPRISE&#39;)" translate-default="Forgot Username or Password?" translate="languageJsonProps.0.sic.signin.forgotUsernameOrPassword.link.text" id="id-signin-signinHelp-cc-usa" tabindex="0" ng-keydown="pageEnter($event,&#39;enterpriseSigninHelp&#39;, &#39;ENTERPRISE&#39;)">Forgot Username or Password?</a>
+					</div>
+					<div class="col-xs-12 ng-hide" ng-show="showForgotSigninPage &amp;&amp; !workitInd" aria-hidden="true">
+						<a class="signin-forgot-username ng-scope" ng-click="getDropDownTargetURL(&#39;enterpriseForgotPassword&#39;, &#39;ENTERPRISE&#39;)" translate-default="Forgot Password?" translate="languageJsonProps.0.sic.signin.forgotPassword.link.text" id="id-signin-forgotPW-cc-usa" tabindex="0" ng-keydown="pageEnter($event,&#39;enterpriseForgotPassword&#39;, &#39;ENTERPRISE&#39;)">Forgot Password?</a>
+					</div>
+					<div id="enrollId" class="col-xs-12" ng-show="showRegularSigninPage &amp;&amp; !hideEnrollmentLink" aria-hidden="false">
+						<a class="signin-enroll-here ng-scope" ng-click="getEnrollmentURL();tagOnlineAccessButtonEvent();" translate-default="Setup Online Access" translate="languageJsonProps.0.sic.signin.setupOnlineAccess.text" tabindex="0">Set Up Online Access</a>
+					</div>
+				</div>
+			</div>
+
+	
+	</div></form></div>
+				<!-- ngIf: showRegularSigninPage && !partnervalue --><div class="sic-width ng-scope" ng-if="showRegularSigninPage &amp;&amp; !partnervalue"></div>
+					
+					
+				</div><!-- end ngIf: showRegularSigninPage && !partnervalue -->
+				<!-- ngIf: showRegularSigninPage && partnervalue -->
+			</div>
+		</div>
+	</div>
+
+	
+
+   
+</div>
+</div>
+</body>
