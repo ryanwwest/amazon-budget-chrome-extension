@@ -15,12 +15,6 @@ This repository is hosted with permission by Capital One and contains no confide
 - When in the Amazon Shopping Cart page, displays these horizontal bars as well
 - Features a settings panel which can enable/disable parts of the extension and has a mock login for Capital One
 
-![Product page screenshot](screenshots/product.png)
-![Cart page screenshot](screenshots/cart.png)
-![Settings popup screenshot](screenshots/settings.png)
-![Capital One login screenshot](screenshots/login.png)
-
-
 ## Future Work
 
 We only had 24 hours to come up with our idea, plan, code, and prepare our presentations. If we were to continue developing this extension, we would consider adding the following features:
@@ -29,3 +23,11 @@ We only had 24 hours to come up with our idea, plan, code, and prepare our prese
 - Category-based budgeting
 - Adding APIs for Capital One, Intuit's Mint, and other companies which manage user's financial data so they can be displayed
 - General bugfixing of the extension within Amazon
+
+## Images
+
+![Product page screenshot](screenshots/product.png)
+![Cart page screenshot](screenshots/cart.png)
+![Settings popup screenshot](screenshots/settings.png | width=100)
+![Capital One login screenshot](screenshots/login.png)
+
