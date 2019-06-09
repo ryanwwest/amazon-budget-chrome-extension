@@ -32,9 +32,7 @@ Product Page
 Cart Page
 ![Cart page screenshot](screenshots/cart.png)
 
-Settings Popup
+Popups
 ![Settings popup screenshot](screenshots/settings.png)
-
-Login Popup
 ![Capital One login screenshot](screenshots/login.png)
 
