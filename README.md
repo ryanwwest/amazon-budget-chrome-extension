@@ -28,6 +28,6 @@ We only had 24 hours to come up with our idea, plan, code, and prepare our prese
 
 ![Product page screenshot](screenshots/product.png)
 ![Cart page screenshot](screenshots/cart.png)
-![Settings popup screenshot](screenshots/settings.png | width=100)
+![Settings popup screenshot](screenshots/settings.png)
 ![Capital One login screenshot](screenshots/login.png)
 
