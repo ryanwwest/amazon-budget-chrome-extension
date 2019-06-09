@@ -4,7 +4,7 @@ The Fiber Chrome Extension was our entry for the 2019 Intern Onboarding Hackatho
 
 It is common for individuals to make a personal budget to ensure they can pay their bills every month and still have spending money. However, it is difficult to constantly check and remember the various budget categories set, and many people quickly give up or forget. This chrome extension is meant to help with this situation and improve Amazon shoppers' financial literacy by integrating their budget & credit card data directly into the Amazon's site. The data is easy to understand provides warnings and recommendations to users.
 
-This repository is hosted with permission by Capital One and contains no confidential data.
+This repository is hosted with permission from Capital One and contains no confidential data.
 
 ## Features
 
